@@ -6,7 +6,7 @@ public class Main {
 
     static int[][] ticketNumbers;
     static int searchNum;
-    final static int WINTICKET = 43;
+    final static int WINNUMBER = 43;
 
     public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class Main {
         int index = 0;
         for (int[] ticketNumber : ticketNumbers) {
             for (int oneNum : ticketNumber) {
-                if (searchNum != WINTICKET) {
+                if (searchNum != WINNUMBER) {
                     index += 1;
                 }
             }
