@@ -6,7 +6,7 @@ public class Main {
 
     static int[][] ticketNumbers;
     static int searchNum;
-    static final int WINNUMBER = 43;
+    final static int WINNUMBER = 43;
 
     public static void main(String[] args) {
 
